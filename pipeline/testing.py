@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing import image
 model = load_model('./artifacts/vgg_model.h5')
 
 # --- Load class labels ---
-labels_df = pd.read_csv('./traffic-signs-preprocessed-dataset/label_names.csv')
+labels_df = pd.read_csv('./dataset-labels/label_names.csv')
 class_labels = labels_df.set_index('ClassId')['SignName'].to_dict()
 
 
