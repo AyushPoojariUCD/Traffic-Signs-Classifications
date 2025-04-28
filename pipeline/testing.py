@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
 # --- Load the model once ---
-model = load_model('./artifacts/vgg_model.h5')
+model = load_model('./artifacts/resnet_model.h5')
 
 # --- Load class labels ---
 labels_df = pd.read_csv('./dataset-labels/label_names.csv')
