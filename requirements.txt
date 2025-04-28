@@ -2,7 +2,7 @@ tqdm==4.64.0
 gdown==4.4.0
 python-dotenv==1.0.0
 argparse==1.4.0
-pyyaml==6.0
+pyyaml>=6.0.1
 ruamel.yaml==0.17.21
 opencv-python
 numpy>=1.26.0,<2.0.0
